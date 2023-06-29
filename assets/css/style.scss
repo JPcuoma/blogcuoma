@@ -29,35 +29,35 @@ a{
 @font-face {
     font-family: sourcecodepro;
     font-weight: 200;
-    src: url(/assets/fonts/SourceSansPro-ExtraLight.ttf);
+    src: url(../../assets/fonts/SourceSansPro-ExtraLight.ttf);
     font-display: fallback
 }
 
 @font-face {
     font-family: sourcecodepro;
     font-weight: 300;
-    src: url(/assets/fonts/SourceSansPro-Light.ttf);
+    src: url(../../assets/fonts/SourceSansPro-Light.ttf);
     font-display: fallback
 }
 
 @font-face {
     font-family: sourcecodepro;
     font-weight: 400;
-    src: url(/assets/fonts/SourceSansPro-Regular.ttf);
+    src: url(../../assets/fonts/SourceSansPro-Regular.ttf);
     font-display: fallback
 }
 
 @font-face {
     font-family: sourcecodepro;
     font-weight: 600;
-    src: url(/assets/fonts/SourceSansPro-SemiBold.ttf);
+    src: url(../../assets/fonts/SourceSansPro-SemiBold.ttf);
     font-display: fallback
 }
 
 @font-face {
     font-family: sourcecodepro;
     font-weight: 800;
-    src: url(/assets/fonts/SourceSansPro-Bold.ttf);
+    src: url(../../assets/fonts/SourceSansPro-Bold.ttf);
     font-display: fallback
 }
 
@@ -160,7 +160,7 @@ header{
     /* hero post */
     .hero-post{
         .hero-post-img{
-            background:url('/assets/img/hero-img.jpg');
+            background:url('../../assets/img/hero-img.jpg');
             background-size:cover;
             height:400px;
             margin:70px auto 0;
@@ -252,7 +252,7 @@ header{
             position: relative;
             
             .medium-post-img{
-                background:url('/assets/img/article-img.jpg');
+                background:url('../../assets/img/article-img.jpg');
                 background-size:cover;
                 height:202px;
                 position:relative;
@@ -412,7 +412,7 @@ header{
             .small-post{
                 max-width:400px;
                 .small-post-img{
-                    background:url('/assets/img/post-img-sm.jpg');
+                    background:url('../../assets/img/post-img-sm.jpg');
                     background-repeat:no-repeat;
                     position: relative;
                     height: 150px;
