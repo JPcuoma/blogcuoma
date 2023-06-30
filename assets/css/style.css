@@ -133,7 +133,7 @@ header nav.container .top a#contact-us {
   margin: auto;
 }
 .hero.container h1 {
-  font-weight: 400;
+  font-weight: 200;
   text-align: center;
 }
 .hero.container h1 span {
@@ -229,7 +229,7 @@ header nav.container .top a#contact-us {
 }
 .posts-wrapper.container .hero-post .post-data .author span {
   font-weight: 600;
-  color: #62e4e2;
+  color: #0EC0BE;
   text-decoration: underline;
 }
 @media (max-width: 710px) {
@@ -296,7 +296,7 @@ header nav.container .top a#contact-us {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.25) 100%);
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.25) 100%);
 }
 .posts-wrapper.container .medium-post-container .medium-post .post-data {
   margin-top: 18px;
@@ -331,7 +331,7 @@ header nav.container .top a#contact-us {
 }
 .posts-wrapper.container .medium-post-container .medium-post .post-data .author span {
   font-weight: 600;
-  color: #62e4e2;
+  color: #0EC0BE;
 }
 .posts-wrapper.container.post .hero-post .hero-post-img {
   margin-top: 47px;
@@ -339,6 +339,57 @@ header nav.container .top a#contact-us {
 .posts-wrapper.container.post .post-main {
   max-width: 1000px;
   margin: 0 auto;
+}
+.posts-wrapper.container.post .post-main .quick-jump {
+  margin-top: 53px;
+}
+.posts-wrapper.container.post .post-main .quick-jump .to {
+  font-size: 21px;
+  color: #181818;
+  font-weight: 600;
+}
+.posts-wrapper.container.post .post-main .quick-jump ul {
+  list-style: none;
+  padding: 0px;
+}
+.posts-wrapper.container.post .post-main .quick-jump ul li {
+  font-size: 20px;
+  color: #606060;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.posts-wrapper.container.post .post-main .quick-jump ul li a {
+  color: #62e4e2;
+  font-weight: 600;
+  padding-left: 16px;
+  font-size: 20px;
+}
+.posts-wrapper.container.post .post-main .post-content .title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  padding: 36px 0 31px 0;
+}
+.posts-wrapper.container.post .post-main .post-content .subtitle {
+  padding-bottom: 23px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.posts-wrapper.container.post .post-main .post-content p {
+  color: #606060;
+  font-size: 21px;
+  margin-top: 0px;
+}
+.posts-wrapper.container.post .post-main .post-content img {
+  margin: 41px auto 0;
+  display: block;
+}
+.posts-wrapper.container.post .full-width-wrapper {
+  padding-top: 0px;
+}
+.posts-wrapper.container.post .full-width-wrapper .wrap-category > h3 {
+  text-align: left;
+  margin-bottom: 46px;
 }
 .posts-wrapper.container .category-boxes-wrapper {
   display: grid;
@@ -482,7 +533,7 @@ header nav.container .top a#contact-us {
 }
 .full-width-wrapper .post-three .small-post .post-data .author span {
   font-weight: 600;
-  color: #62e4e2;
+  color: #0EC0BE;
 }
 
 .breadcrumb {
