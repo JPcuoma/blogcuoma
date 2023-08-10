@@ -25,6 +25,36 @@
                     <a id="contact-us" class="btn btn-primary" href="/contacto/">CONTACTO</a>
                     </button>
                 </div>
+
+                <div id="hamburger-icon" class="hamburger-icon">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    </div>
+            </div>
+
+            <div class="mobile-nav">
+                <div class="hamburger">
+                <ul class="nav-list">
+                <li><a lang="es" href="/">Inicio</a></li>
+                <li><a lang="es" href="/nosotros/">Nosotros</a></li>
+                
+                <li><a lang="es" href="/contacto/">Contacto</a></li>
+                <li><a lang="en" href="/en/">English</a></li>
+                </ul>
+                </div>
+                <div class="contact">
+                <div class="physical">
+                <p>Argentina, Ciudad de Buenos Aires</p>
+                <p>España, Barcelona</p>
+                <p class="email"><a href="mailto:info@cuoma.com">info@cuoma.com</a></p>
+                </div>
+                <div class="social-networks-inline">
+                <a href="https://www.linkedin.com/company/cuoma" target="_blank" lang="es">
+                <img src="/assets/svg/social/linkedin.svg" alt="Linkedin">
+                </a>
+                </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -382,6 +412,11 @@ $('.select-dropdown__list-item').on('click', function(){
 	$('.select-dropdown__list').toggleClass('active');
 });
    });
+
+   document.getElementById('hamburger-icon').addEventListener("click", ()=>{
+    document.getElementById('header').classList.toggle('open');
+}
+);
   
    </script>
   
