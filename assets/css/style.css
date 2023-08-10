@@ -118,6 +118,11 @@ header nav.container .top .hamburger-icon {
   position: absolute;
   left: 2rem;
 }
+@media only screen and (min-width: 768px) {
+  header nav.container .top .hamburger-icon {
+    display: none;
+  }
+}
 header nav.container .top .hamburger-icon .line {
   width: 22px;
   height: 3px;
