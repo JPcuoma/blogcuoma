@@ -376,15 +376,17 @@ header{
             color:$gray;
             font-size: 15px;
             border: 2px solid transparent;
+            transition: unset !important;
             &.active{
                 border-bottom-left-radius: 0;
                 border:2px solid $yellow-cat;
                 background:#fff;
+                font-weight: 700;
             }
             &:hover{
                 border:2px solid $yellow-cat;
                 background:#fff;
-                -webkit-transition: none;
+                font-weight: 700;
             }
         }
     }
@@ -784,8 +786,26 @@ header{
     }
  /* post page */ 
     &.post{
-        .hero-post .hero-post-img{
+        .hero-post{
+         .hero-post-img{
             margin-top:47px;
+         }
+         .post-data{
+            .title{
+                font-size: 48px;
+                font-weight: 700;
+                text-decoration:none;
+                padding:25px 0;
+                line-height: normal;
+                @media(max-width:768px){
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 700;
+                    text-decoration:underline;
+                    padding:12px 0;
+                }
+            }
+         }
         }
         .post-main{
             max-width:1000px;
@@ -806,7 +826,7 @@ header{
                         font-size: 16px;
                         margin-bottom: 6px;
                         a{
-                            color:$aqua;
+                            color:$aqua-author;
                             font-weight: 600;
                             padding-left: 16px;
                             font-size: 20px;
@@ -934,7 +954,7 @@ header{
         .category-boxes-item-see-more{
             font-size: 15px;
             text-decoration-line: underline;
-            color:$aqua;
+            color:$aqua-author;
             cursor:pointer
         }
         @media(max-width:980px){
@@ -1160,7 +1180,7 @@ header{
             list-style: none;
             display:flex;
             a{
-                color:$aqua;
+                color:$aqua-author;
                 font-size: 15px;
                 text-decoration: underline;
                 &::after{
