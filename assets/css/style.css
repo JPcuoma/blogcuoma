@@ -87,6 +87,11 @@ a {
   padding: 24px 0;
 }
 
+body.openModal {
+  height: 100%;
+  overflow: hidden;
+}
+
 header {
   margin: auto;
   height: auto;

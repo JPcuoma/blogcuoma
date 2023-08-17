@@ -16,5 +16,6 @@ $('.select-dropdown__list-item').on('click', function(){
 
    document.getElementById('hamburger-icon').addEventListener("click", ()=>{
     document.getElementById('header').classList.toggle('open');
+    document.getElementsByTagName('body')[0].classList.toggle('openModal');
 }
 );
