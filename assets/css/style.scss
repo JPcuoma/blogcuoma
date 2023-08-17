@@ -79,6 +79,7 @@ a{
     font-size: 16px;
     text-align:center;
     padding: 15px;
+    display:none;
     b{
         display: contents;
     }
@@ -87,8 +88,19 @@ a{
     }
 }
 
+.header-space{
+    height:20px;
+    padding:24px 0;
+}
 header{
-    margin-top:24px;
+    margin: auto;
+    height: auto;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    width:100%;
+    
+    padding:20px 0;
     nav{
         display: flex;
         align-items: center;
