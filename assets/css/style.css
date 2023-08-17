@@ -250,6 +250,7 @@ header nav .mobile-nav > * {
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.3, 1.1);
 }
 header.open nav .mobile-nav {
+  height: 100%;
   top: 0%;
 }
 header.open nav .mobile-nav > * {

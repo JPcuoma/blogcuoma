@@ -253,6 +253,7 @@ header{
     }
     &.open nav {
         .mobile-nav {
+            height:100%;
         top: 0%;
             &>*{
                 opacity:1;
