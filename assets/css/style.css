@@ -114,6 +114,9 @@ header nav.container .top a.logo {
   align-items: center;
   padding: 0px;
 }
+header nav.container .top a.logo:hover {
+  border-bottom: none;
+}
 @media (max-width: 768px) {
   header nav.container .top a.logo {
     margin: 0 auto;
@@ -366,7 +369,6 @@ header.open nav .top .hamburger-icon .line {
 .category-bar .category-list .category-item:hover {
   border: 2px solid #FFE200;
   background: #fff;
-  font-weight: 700;
 }
 @media (max-width: 1171px) {
   .category-bar {
@@ -566,6 +568,9 @@ header.open nav .top .hamburger-icon .line {
 .posts-wrapper.container .hero-post .post-data {
   margin-top: 31px;
 }
+.posts-wrapper.container .hero-post .post-data a {
+  display: block;
+}
 .posts-wrapper.container .hero-post .post-data .cat {
   font-size: 15px;
   line-height: 15px;
@@ -604,7 +609,7 @@ header.open nav .top .hamburger-icon .line {
     margin: 31px 18px 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 714px) {
   .posts-wrapper.container .hero-post .post-data {
     margin-top: 31px;
   }
@@ -625,9 +630,14 @@ header.open nav .top .hamburger-icon .line {
     text-decoration: underline;
   }
 }
-@media (max-width: 768px) and (max-width: 710px) {
+@media (max-width: 714px) and (max-width: 710px) {
   .posts-wrapper.container .hero-post .post-data {
     margin: 31px 18px 0;
+  }
+}
+@media (min-width: 714px) and (max-width: 768px) {
+  .posts-wrapper.container .hero-post .post-data {
+    padding: 0 20px;
   }
 }
 @media (max-width: 400px) {
@@ -708,6 +718,9 @@ header.open nav .top .hamburger-icon .line {
 .posts-wrapper.container .medium-post-container .medium-post .post-data {
   margin-top: 18px;
 }
+.posts-wrapper.container .medium-post-container .medium-post .post-data a {
+  display: block;
+}
 .posts-wrapper.container .medium-post-container .medium-post .post-data .cat {
   font-size: 15px;
   line-height: 15px;
@@ -758,6 +771,11 @@ header.open nav .top .hamburger-icon .line {
 }
 .posts-wrapper.container.post .hero-post .hero-post-img {
   margin-top: 47px;
+}
+@media (max-width: 400px) {
+  .posts-wrapper.container.post .hero-post .hero-post-img {
+    margin: 0px;
+  }
 }
 .posts-wrapper.container.post .hero-post .post-data .title {
   font-size: 48px;
@@ -836,6 +854,9 @@ header.open nav .top .hamburger-icon .line {
 }
 .posts-wrapper.container.post .full-width-wrapper {
   padding-top: 0px;
+}
+.posts-wrapper.container.post .full-width-wrapper .wrap-category {
+  margin-top: 80px;
 }
 .posts-wrapper.container.post .full-width-wrapper .wrap-category > h3 {
   text-align: left;
@@ -1045,6 +1066,9 @@ header.open nav .top .hamburger-icon .line {
 }
 .full-width-wrapper .post-three .small-post .post-data {
   margin-top: 18px;
+}
+.full-width-wrapper .post-three .small-post .post-data a {
+  display: block;
 }
 .full-width-wrapper .post-three .small-post .post-data .cat {
   font-size: 15px;
