@@ -103,14 +103,14 @@ header{
     z-index: 10;
     background-color: #fff;
     width:100%;
-    
-    padding:20px 0;
+    padding:14px 0;
     nav{
         display: flex;
         align-items: center;
         &.container{
             max-width: 1280px;
             margin: auto;
+            height:43px;
             .top{
                 display: flex;
                 align-items: center;
@@ -121,7 +121,7 @@ header{
                 a{
                     color:$black-title;
                     font-size: 15px;
-                    padding:0 25px 12px;
+                    padding:10px 22px;
                     &.active{
                         font-weight: 600;
                         border-bottom: 0.4rem solid $yellow-cat;
@@ -130,6 +130,9 @@ header{
                         display:flex;
                         align-items: center;
                         padding:0px;
+                        &picture{
+                            display:Flex;
+                        }
                         &:hover{
                             border-bottom:none;
                         }
@@ -137,8 +140,12 @@ header{
                             margin:0 auto;
                         }
                     }
+                    &.link{
+                        -webkit-margin-start: 10px;
+                        margin-inline-start: 10px;
+                    }
                     &#contact-us{
-                        margin-left:100px;
+                        margin-left:10px;
                         background-color: $aqua;
                         border-radius: 2.5rem;
                         border-bottom-left-radius: 0.5rem;
